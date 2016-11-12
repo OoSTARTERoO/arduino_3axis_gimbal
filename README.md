@@ -1,3 +1,3 @@
-# super simple 2axis arduino gimbal
-special thanks to...
-i2cdev library developer
+# 2 axis arduino gimbal
+##special thanks to...
+##i2cdev library developer
