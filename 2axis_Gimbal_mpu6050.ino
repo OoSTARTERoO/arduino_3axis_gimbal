@@ -113,9 +113,9 @@ void loop() {
             Serial.print("\t");
             Serial.print(ypr[1] * 180/M_PI);
             servo2.write(map(ypr[1]*180/M_PI,-90,90,0,180)); 
-            Serial.print("\t");
-            Serial.println(ypr[2] * 180/M_PI);
-            servo3.write(map(ypr[2]*180/M_PI,-90,90,0,180));
+//            Serial.print("\t");
+//            Serial.println(ypr[2] * 180/M_PI);
+//            servo3.write(map(ypr[2]*180/M_PI,-90,90,0,180));
     #endif
   }
 }
